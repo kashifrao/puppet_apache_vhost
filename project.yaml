@@ -1,0 +1,26 @@
+---
+#
+# Project level data
+#
+     
+    
+    
+
+apache_vhost::hosts:
+  "dcpdb1": "10.0.0.20"
+  "dcmdb1": "10.0.0.15"
+ 
+  
+
+apache_vhost::subdomains:
+  - "dcpdb1"
+  - "dcmdb1"
+  
+  
+   
+  
+# ----------------------------------------------------------------------------
+# Add any additional settings *above* this comment block.
+# ----------------------------------------------------------------------------
+...
+# vim:ts=8 et sw=2 sts=2:
